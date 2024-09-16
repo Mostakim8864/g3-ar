@@ -5,3 +5,66 @@
     font-weight: 400;
     font-style: normal;
   }
+  .disply-flex{
+    display: flex;
+  }
+  .bg-light{
+    background-color:rgba(255, 144, 14, 0.1) ;
+  }
+  .text-gray{
+    color:#424242 ;
+  }
+  .text-light-gray{
+    color: #727272;
+  }
+  .nav-bar{
+justify-content: space-between;
+align-items: center;
+  }
+  .brand{
+    font-weight: 700px;
+    font: size 3rem;;
+  }
+  .nav-item{
+    list-style: none;
+ margin-right: 30px;
+
+  }
+  .nav-link{
+    text-decoration: none;
+
+  }
+  .nav-bar, .baner{
+    max-width: 1440px;
+    margin: 0 60px;
+  }
+  .baner-title{
+    font-weight: 400px;
+    font-size: 4rem;
+
+  }
+  .baner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+
+  }
+  .p-button{
+    background-color: #FF900E;
+    font-size: 1.5rem;
+    padding: 20px 25px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+
+  }
+  .baner-img{
+   width: 100%;
+  }
+  @media screen and ( max-width:576px) {
+    .nav-bar, .nav-link{
+      flex-direction:column;
+    }
+    
+  }
